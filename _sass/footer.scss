@@ -1,8 +1,9 @@
 .main-footer {
-  text-align: center;
-  background: $color1;
-  position: fixed;
-  bottom:0;
-  width:100%;
-  height:60px;   /* Height of the footer */
+  margin-left: inherit;
+  margin-right: inherit;
+  height: 20px;
+  p{
+    font-size: 12px;
+    text-align: center;
+  }
 }
