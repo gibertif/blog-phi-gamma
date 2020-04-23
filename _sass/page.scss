@@ -8,11 +8,20 @@
 
 .left-col{
   flex: 10%;
-  background-color: gray;
+  background-color: $color2;
 }
 
 .right-col{
   flex: 90%;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */

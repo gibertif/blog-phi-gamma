@@ -21,12 +21,13 @@
   }
 
   a:hover {
-  background-color: #111111;
+  background-color: $color5;
+  color: black;
   }
 }
 
 .current{
   width: 100%;
-  background-color: #ddd;
+  background-color: $color3;
   color: black;
 }

@@ -1,4 +1,9 @@
 - name: Home
   link: /
+- name: Science
+  link: /science.html
+- name: Eco-finance
+  link: /eco-finance.html
+
 - name: About
   link: /about.html

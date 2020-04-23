@@ -3,8 +3,15 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: main
-title: Home
+title: A blog
+abstract: 
 ---
+
+# H1
 This is the content of home
 
+## H2
 This is the second chapter of home
+
+### H3
+This is the third
