@@ -1,9 +1,15 @@
 - name: Home
   link: /
+
 - name: Science
   link: /science.html
 - name: Eco-finance
   link: /eco-finance.html
+- name: Social
+  link: /social.html
+- name: Coding
+  link: /coding.html
+
 
 - name: About
   link: /about.html
