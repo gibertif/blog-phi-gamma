@@ -5,17 +5,21 @@
     <div class="page">
       <div class="left-col">
         <div class="left-col-wrap">
+          <a href="/">
           <img src="assets/logo/logo2.png" class="logo"alt="PG">
+          </a>
           {% include navigation.html %}
           </div>
       </div>
       <div class="right-col">
         {% include content.html %}
-        <a href="{{ post.url }}">{{ site.posts.first.title }}</a>
-
+        {% if page.title == "Home" %}
+        {% include latest-post.html %}
+        {% elsif page.title != "About" %}
+            {% include post-list.html %}
+        {% endif %}
+        {% include footer.html %}
       </div>
-      {% include footer.html %}
-
     </div>
   </body>
 </html>

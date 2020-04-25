@@ -1,5 +1,5 @@
 ---
-title: coding
+title: Coding
 layout: main
 ---
 

@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: main
-title: A blog
-abstract: 
+title: Home
+abstract:
 ---
 
 # H1

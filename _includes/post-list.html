@@ -1,0 +1,17 @@
+{% for category in site.categories %}
+  {% if category[0] == page.title %}
+    <ul class="post-list">
+      {% for post in category[1] %}
+      <li class="post-list-item">
+        <a href="{{ post.url }}">
+          <div class="post-list-content">
+            {{ post.title }}
+            <img class="post-list-img" src="{{"/assets/thumbnails/" | append: category[0] | append: ".png"}}"/>
+            {{post.excerpt}}
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
